@@ -1,0 +1,30 @@
+1. Why Monero
+What a public ledger leaks. Why privacy by default. Untraceable, unlinkable, fungible.
+2. Money
+XMR units. Supply curve. Tail emission. Block time. Why there is no hard cap.
+3. Wallets
+Seed. Spend key and view key. Hot vs cold. GUI, CLI, mobile, hardware.
+4. Addresses
+Standard address. Subaddresses. Stealth (one-time) outputs. View tags. What never goes on-chain.
+5. Transactions
+Inputs, outputs, change. How a payment is built, signed, broadcast, and confirmed.
+6. Privacy stack
+Four layers on every tx:
+
+receiver → stealth addresses
+sender → ring signatures (CLSAG, ring size 16)
+amount → RingCT + Bulletproofs+
+network → Dandelion++, Tor, I2P
+
+7. Blockchain
+Blocks, outputs, key images. What an explorer can show. What it cannot.
+8. Network
+Nodes. Remote vs own node. Pruned vs full. Mainnet, stagenet, testnet. Peers and ports.
+9. Mining
+Proof of work. RandomX. Solo, pools, P2Pool. Fees and dynamic block size.
+10. Using it safely
+First receive and send. Getting XMR. Operational privacy. Common ways people deanonymize themselves.
+11. Advanced features
+Accounts. Multisig. Payment proofs. Atomic swaps.
+12. What’s next
+FCMP++ (full-chain membership). Carrot / Jamtis-style addresses. Seraphis. What is live vs research.
